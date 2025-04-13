@@ -64,3 +64,5 @@ function ExpenseForm ({onAddExpense}) {
         </form>
     );
 }
+
+export default ExpenseForm;
