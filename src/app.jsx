@@ -6,8 +6,6 @@ import React, { useState } from "react";
  function App() {
    const [expenses, setExpenses] = useState([]);
    const [searchQuery, setSearchQuery] = useState("");
-   const [sortAlphabetically, setSortAlphabetically] = useState(false);
- 
    const handleAddExpense = (e) => {
      e.preventDefault();
      const form = e.target;
@@ -21,11 +19,10 @@ import React, { useState } from "react";
      setExpenses([newExpense, ...expenses]);
      form.reset();
    };
- 
    const filteredExpenses = expenses
-     .filter((expense) =>
-       expense.name.toLowerCase().includes(searchQuery.toLowerCase()) || expense.description.toLowerCase().includes(searchQuery.toLowerCase())
-     )
+   .filter((expense) =>
+     expense.name.toLowerCase().includes(searchQuery.toLowerCase()) || expense.description.toLowerCase().includes(searchQuery.toLowerCase())
+   )
  
    return (
      <div className="app-container">
