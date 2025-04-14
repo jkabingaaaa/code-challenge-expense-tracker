@@ -1,8 +1,8 @@
 ody {
   margin: 0;
   font-family: 'Calibri', 'Segoe UI', sans-serif;
-  background-color: #f4f9f4;
-  color: #222;
+  background-color: white;
+  color: black;
 }
 
 .app-container {
@@ -12,10 +12,9 @@ ody {
 }
 .form-container {
   width: 300px;
-  background-color: #e9f5e9;
+  background-color: white;
   padding: 20px;
-  border-left: 3px solid #b3d9b3; 
-  box-shadow: -3px 0 6px rgba(0, 0, 0, 0.05); 
+  border-left: 3px solid brown; 
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -23,7 +22,7 @@ ody {
 
 h2 {
   font-size: 18px;
-  color: #2f6627;
+  color: brown;
   margin-bottom: 4px;
   font-weight: bold;
 }
@@ -39,19 +38,19 @@ h2 {
   padding: 10px 12px;
   font-size: 13px;
   border-radius: 0;
-  border: 1px solid #a0c4a0;
-  background-color: #fdfefb;
-  color: #222;
+  border: 1px solid brown;
+  background-color: white;
+  color: black;
 }
 
 .expense-form input:focus {
-  border-color: #66a866;
+  border-color: brown;
   outline: none;
-  background-color: #f0fef0;
+  background-color: white;
 }
 
 .expense-form button {
-  background-color: #66a866;
+  background-color: brown;
   color: white;
   font-weight: bold;
   border: none;
@@ -59,14 +58,14 @@ h2 {
 }
 
 .expense-form button:hover {
-  background-color: #558c55;
+  background-color: brown;
 }
 
 .expenses-container {
   flex: 1;
   padding: 24px;
   overflow-y: auto;
-  background-color: #ffffff;
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
@@ -76,8 +75,8 @@ h2 {
   padding: 10px;
   margin-bottom: 12px;
   font-size: 13px;
-  border: 1px solid #c6dfc6;
-  background-color: #f6fef6;
+  border: 1px solid brown;
+  background-color: white;
 }
 
 .sort-toggle {
@@ -86,45 +85,41 @@ h2 {
   gap: 8px;
   margin-bottom: 20px;
   font-size: 13px;
-  color: #2f6627;
+  color: brown;
 }
 
 .expenses-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 13px;
-  background-color: #ffffff;
-  border: 1px solid #c6dfc6;
+  background-color: white;
+  border: 1px solid brown;
 }
 
 .expenses-table th,
 .expenses-table td {
   padding: 10px;
   text-align: left;
-  border: 1px solid #c6dfc6;
+  border: 1px solid brown;
 }
 
 .expenses-table thead {
-  background-color: #d8ecd8;
+  background-color: white;
   color: #2f6627;
   font-weight: bold;
-}
-
-.expenses-table tr:hover {
-  background-color: #f0f9f0;
 }
 
 .expenses-table td button {
   padding: 6px 10px;
   font-size: 12px;
   color: white;
-  background-color: #c94f4f;
+  background-color: brown;
   border: none;
   cursor: pointer;
 }
 
 .expenses-table td button:hover {
-  background-color: #aa3e3e;
+  background-color: brown;
 }
 .app-container {
   display: flex;

@@ -7,10 +7,6 @@ function NewExpense({ expense, onDelete }) {
       <td>{expense.description}</td>
       <td>{expense.category}</td>
       <td>${expense.amount.toFixed(2)}</td>
-      <td>{new Date(expense.date).toLocaleDateString()}</td>
-      <td>
-        <button onClick={onDelete}>Delete</button>
-      </td>
     </tr>
   );
 }
